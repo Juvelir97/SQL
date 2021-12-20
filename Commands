@@ -1,0 +1,8 @@
+# Get information from a table
+  SELECT * FROM tablename;    # retrieve all information from the table "tablename"
+  SELECT coloumnname1, coloumnname2 FROM tablename;    # retrieve coloumns 1 and 2 only
+  SELECT DISTINCT coloumnname1 FROM tablename;    # Uniq output
+  SELECT TOP 5 coloumnname1 FROM tablename;     # Top 5 of the table (MSSQL)
+  SELECT coloumnname1 FROM tablename LIMIT 5;   # Top 5 of the table (MySQL)
+  SELECT coloumnname1 FROM tablename LIMIT 5 OFFSET 3;  # 5 ROWS starts from row 3
+  
