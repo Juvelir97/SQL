@@ -6,3 +6,8 @@
   SELECT coloumnname1 FROM tablename LIMIT 5;   # Top 5 of the table (MySQL)
   SELECT coloumnname1 FROM tablename LIMIT 5 OFFSET 3;  # 5 ROWS starts from row 3
   
+# Sort
+  SELECT * FROM tablename ORDER BY coloumnname1
+  SELECT * FROM tablename ORDER BY coloumnname1 DESC #reverse sort
+# Fiter
+  SELECT * FROM tablename WHERE coloumnname1 = value # Operators: = <> != <= !< BETWEEN IS NUUL
