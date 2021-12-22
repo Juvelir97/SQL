@@ -11,3 +11,9 @@
   SELECT * FROM tablename ORDER BY coloumnname1 DESC #reverse sort
 # Fiter
   SELECT * FROM tablename WHERE coloumnname1 = value # Operators: = <> != <= !< BETWEEN IS NUUL
+      It's possible to use WHERE with logical operators: AND / OR / IN / NOT
+  SELECT * FROM tablename WHERE coloumnname1 LIKE '%al%'  # % = * 
+  SELECT * FROM tablename WHERE coloumnname1 LIKE '_alue'  # one _ replace only one symbol
+  SELECT * FROM tablename WHERE coloumnname1 LIKE '[vl]%'   # the value should start with v or l
+  SELECT * FROM tablename WHERE coloumnname1 LIKE '[^vl]%'  # opposite the prev string
+  
