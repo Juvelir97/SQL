@@ -17,3 +17,8 @@
   SELECT * FROM tablename WHERE coloumnname1 LIKE '[vl]%'   # the value should start with v or l
   SELECT * FROM tablename WHERE coloumnname1 LIKE '[^vl]%'  # opposite the prev string
   
+# + - * / coloumns
+   SELECT prod_id, quantity, item_price, quantity*item_price AS expanded_price
+        FROM OrderItems;
+# AVG,SUM,COUNT,MAX,MIN
+   SELECT AVG(price) AS avg_price FROM products;
